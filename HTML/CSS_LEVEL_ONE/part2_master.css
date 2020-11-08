@@ -1,0 +1,21 @@
+body{
+  /* background-color: grey; */
+  background: url(https://www.discoverlosangeles.com/sites/default/files/styles/max_2600x2600/public/images/2019-10/Torrance%20Marriott%20Redondo%20Beach%20Outdoor%20Patio.jpg?itok=ZSEC92Se);
+  background-repeat : no-repeat;
+
+}
+
+div{
+  background-color:green;
+  border-color:blue;
+  border-width: medium; /*20px*/
+  border-style: dotted;
+}
+p
+{
+  color:yellow;
+}
+span{
+  background-color:black;
+  color:red;
+}

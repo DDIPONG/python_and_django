@@ -1,0 +1,13 @@
+/* selected tag{
+  property: value;
+} */
+h1{
+  color: rgb(155, 186, 169);
+}
+li{
+  color: #ffd1b3;
+}
+p{
+  color:rgba(155, 186, 169, 1.5)
+  /* transparency */
+}
