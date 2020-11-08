@@ -4,16 +4,43 @@
 // Create Empty Student Roster Array
 // This has been done for you!
 var roster = []
+var pick = prompt("what will you pick? [add] [remove] [display] [quit]")
 
+while (pick==quit){
+
+if (pick=="add") {
+    var studentName = prompt("enter Student Name")
+    addNew(studentName);
+    
+} else if(pick=="remove"{
+    var studentName = prompt("enter Student Name")
+    remove(studentName)
+    
+} else if(pick==display){
+    console.log(roaster);
+}
+  else if(pick==quit){
+
+    prompt("Thank you for the service")
+  }
+
+
+}
 // Create the functions for the tasks
 
 // ADD A NEW STUDENT
 
+function addNew(name){
+    roaster.push(name)
+}
 // Create a function called addNew that takes in a name
 // and uses .push to add a new student to the array
 
 
 // REMOVE STUDENT
+function remove(name){
+    roaster.pop()
+}
 
 // Create a function called remove that takes in a name
 // Finds its index location, then removes that name from the roster
