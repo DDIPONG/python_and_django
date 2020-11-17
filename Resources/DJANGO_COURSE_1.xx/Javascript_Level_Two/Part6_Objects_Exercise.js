@@ -8,7 +8,11 @@
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  nameLength: function(){
+    console.log(employee.name.length)
+
+  }
 }
 
 // Add a method called nameLength that prints out the
@@ -17,13 +21,16 @@ var employee = {
 
 ///////////////////
 // PROBLEM 2 /////
-/////////////////
+///////////////////
 
 // Given the object:
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  method:function(){
+    alert("Name is"+this.name +", Job is "+ this.job + ", Age is "+this.age)
+  }
 }
 
 // Write program that will create an Alert in the browser of each of the
@@ -41,7 +48,11 @@ var employee = {
 var employee = {
   name: "John Smith",
   job: "Programmer",
-  age: 31
+  age: 31,
+  method:function(){
+    var x = name.split(" ");
+    console.log(x[1])
+  }
 }
 
 // Add a method called lastName that prints
@@ -49,3 +60,4 @@ var employee = {
 
 // You will need to figure out how to split a string to an array.
 // Hint: http://www.w3schools.com/jsref/jsref_split.asp
+// Split() into Array
